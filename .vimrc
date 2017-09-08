@@ -49,8 +49,3 @@ let g:ansible_options = {'ignore_blank_lines': 0}
 set number
 set autowrite
 
-" System wide Copy Paste
-" with Ctrl+C and Ctrl+V
-vnoremap <C-c> "*y
-vnoremap <C-v> "*p
-
