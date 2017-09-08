@@ -49,3 +49,6 @@ let g:ansible_options = {'ignore_blank_lines': 0}
 set number
 set autowrite
 
+" Use system wide clipboard
+set clipboard=unnamedplus
+
