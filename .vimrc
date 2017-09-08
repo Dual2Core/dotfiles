@@ -46,9 +46,11 @@ filetype plugin indent on    " required
 
 let g:ansible_options = {'ignore_blank_lines': 0}
 
-call plug#begin()
-Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-call plug#end()
-
 set number
 set autowrite
+
+" System wide Copy Paste
+" with Ctrl+C and Ctrl+V
+vnoremap <C-c> "*y
+vnoremap <C-v> "*p
+
